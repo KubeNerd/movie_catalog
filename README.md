@@ -141,15 +141,3 @@ curl -X POST http://127.0.0.1:5000/movies/FakeMovie/rate \
 - **Interface/API**: `movie_routes.py` recebe chamadas HTTP e usa o Service para responder.
 
 Cada camada **faz apenas o que deve fazer**, sem mistura, seguindo o DDD de verdade.
-
----
-
-# 🔄 Fórum
-
-Se quiser evoluir:
-- Adicionar ID para cada filme.
-- Permitir deletar filmes.
-- Persistir em SQLite ou PostgreSQL.
-- Criar autenticação para a API.
-- Integrar com Swagger via Flasgger.
-# movie_catalog
